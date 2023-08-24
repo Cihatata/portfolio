@@ -21,8 +21,9 @@ export default function Projects() {
         <WorkContent>
           <TabGroup>
             <TabsList>
-              <TabsTrigger>Projects</TabsTrigger>
-              <TabsTrigger>Blogs</TabsTrigger>
+              <TabsTrigger>Projelerim</TabsTrigger>
+              <TabsTrigger>Yazılarım</TabsTrigger>
+              <TabsTrigger>Notlarım</TabsTrigger>
             </TabsList>
             <TabsContent>
               <ListContainer items={PROJECTS} item={ProjectCard} />{" "}

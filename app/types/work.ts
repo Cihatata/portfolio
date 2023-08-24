@@ -12,7 +12,6 @@ export type ProjectItem = WorkItem & {
 };
 
 export type BlogItem = WorkItem & {
-  dev: string;
-  hashnode: string;
+  medium: string;
   published: string;
 };

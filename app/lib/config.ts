@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Rakesh Kumar",
-  url: "https://rakesh.website",
-  ogImage: "https://rakesh.website/og.png",
+  name: "Cihat ATA",
+  url: "https://cihatata.dev",
+  ogImage: "https://cihatata.dev/og.png",
   description:
-    "Fronted developer from India | Loves React and all things JavaScript",
+    "Fronted developer | Loves React and all things JavaScript",
   links: {
-    twitter: "https://twitter.com/kumarakeshh",
-    github: "https://github.com/ra-kesh",
-    linkedin: "https://www.linkedin.com/in/iamrakeshkumar/",
+    twitter: "https://twitter.com/cihatata",
+    github: "https://github.com/cihatata",
+    linkedin: "https://www.linkedin.com/in/cihat-ata",
     cv: "/cv.pdf",
   },
 };

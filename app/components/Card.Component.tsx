@@ -9,7 +9,7 @@ const Card = React.forwardRef<
     <div
       ref={ref}
       className={classNames(
-        "sm:w-80 h-52 w-full ",
+        "sm:w-80 h-60 w-full ",
         "rounded-xl border border-border ",
         "bg-card text-card-foreground",
         "transition ease-in-out duration-300",

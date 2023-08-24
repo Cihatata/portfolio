@@ -8,13 +8,13 @@ export const ACTIONS: Array<NavigationItem> = [
     id: uuid(),
     href: "/about",
     icon: <Icon icon="feather:user" className="mr-3" />,
-    text: "About",
+    text: "Hakkımda",
   },
   {
     id: uuid(),
     href: "/work",
     icon: <Icon icon="feather:briefcase" className="mr-3" />,
-    text: "Work",
+    text: "Çalışmalarım",
   },
   {
     id: uuid(),

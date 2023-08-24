@@ -13,12 +13,11 @@ export const BlogCard = ({
   description,
   title,
   published,
-  dev,
-  hashnode,
+  medium
 }: BlogItem) => {
   return (
     <Card className="mb-5">
-      <CardHeader className="h-40">
+      <CardHeader className="h-48">
         <CardTitle className="text-lg font-bold ">{title}</CardTitle>
         <CardDescription className="text-accent-foreground">
           {description}
@@ -29,20 +28,12 @@ export const BlogCard = ({
       </CardHeader>
       <CardFooter className="flex gap-x-6 py-1">
         <Link
-          href={dev}
+          href={medium}
           rel="noopener noreferrer"
           target="_blank"
           className="cursor-pointer transform hover:translate-x-1 transition duration-300 ease-in-out "
         >
-          <span className="font-bold ">Dev.to &rarr;</span>
-        </Link>
-        <Link
-          href={hashnode}
-          rel="noopener noreferrer"
-          target="_blank"
-          className="cursor-pointer transform hover:translate-x-1 transition duration-300 ease-in-out "
-        >
-          <span className="font-bold ">Hashnode &rarr;</span>
+          <span className="font-bold ">Medium &rarr;</span>
         </Link>
       </CardFooter>
     </Card>

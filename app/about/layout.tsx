@@ -3,7 +3,7 @@ import React from "react";
 import { siteConfig } from "../lib/config";
 
 export const metadata: Metadata = {
-  title: `About | ${siteConfig.name}`,
+  title: `Hakkımda | ${siteConfig.name}`,
   description: "A brief introduction about myself and what I have been doing",
 };
 

@@ -9,19 +9,19 @@ export const NAVIGATIONS: Array<Array<NavigationItem>> = [
       id: uuid(),
       href: "/",
       icon: <Icon icon="feather:home" className="mr-3" />,
-      text: "Home",
+      text: "Ana Sayfa",
     },
     {
       id: uuid(),
       href: "/about",
       icon: <Icon icon="feather:user" className="mr-3" />,
-      text: "About",
+      text: "Hakkımda",
     },
     {
       id: uuid(),
       href: "/work",
       icon: <Icon icon="feather:briefcase" className="mr-3" />,
-      text: "Work",
+      text: "Çalışmalarım",
     },
   ],
   [
