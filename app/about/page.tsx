@@ -16,8 +16,9 @@ export default function About() {
         <AboutContent>
           <TitleSecondary>Merhaba !</TitleSecondary>
           <Description className="md:max-w-3xl">
-            Gazi Üniversitesi Bilgisayar Mühendisliği mezunuyum.(20’) 
-            3+ yıldır sektörde Frontend Developer olarak çalışıyorum. 
+            Ben Cihat ATA. <a href="https://resmo.com" target="_blank" className="text-gray-900 font-semibold">Resmo</a>`da 
+            Frontend Developer olarak çalışıyorum. Ankara`da yaşıyorum. Gazi Üniversitesi Bilgisayar Mühendisliği mezunuyum.(20’) 
+            3+ yıldır sektörde Frontend Developer olarak çalışıyorum.
             JavaScript teknolojileri ile ilgileniyorum. Ürün odaklı şirketlerde çalışmayı 
             tercih ediyorum. Öğrendiklerimi ve deneyimlerimi başkalarına aktarma konusunda 
             hevesliyim. 
