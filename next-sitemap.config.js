@@ -1,4 +1,4 @@
-const siteUrl = "https://www.rakesh.website";
+const siteUrl = "https://www.cihatata.dev";
 
 // add your private routes here
 const exclude = [];
