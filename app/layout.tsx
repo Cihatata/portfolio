@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from "./provider";
 import { inter, roboto_mono } from "./font";
 import { siteConfig } from "./lib/config";
@@ -59,6 +60,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
