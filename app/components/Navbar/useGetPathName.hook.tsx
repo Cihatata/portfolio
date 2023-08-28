@@ -12,6 +12,9 @@ export const useGetPathName = () => {
   else if (pathName === "/about") {
     return (pathName = "Hakkımda")
   }
+  else if (pathName === "/tools") {
+    return (pathName = "Araçlarım")
+  }
   else {
     return pathName.substring(1);
   }

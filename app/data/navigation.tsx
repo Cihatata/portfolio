@@ -23,6 +23,12 @@ export const NAVIGATIONS: Array<Array<NavigationItem>> = [
       icon: <Icon icon="feather:briefcase" className="mr-3" />,
       text: "Çalışmalarım",
     },
+    {
+      id: uuid(),
+      href: "/tools",
+      icon: <Icon icon="bx:atom" className="mr-3" />,
+      text: "Araçlarım",
+    },
   ],
   [
     {
@@ -46,15 +52,6 @@ export const NAVIGATIONS: Array<Array<NavigationItem>> = [
       external: true,
       icon: <Icon icon="feather:linkedin" className="mr-3" />,
       text: "Linkedin",
-    },
-  ],
-  [
-    {
-      id: uuid(),
-      href: siteConfig.links.cv,
-      external: true,
-      icon: <Icon icon="feather:file-text" className="mr-3" />,
-      text: "Resume",
     },
   ],
 ];

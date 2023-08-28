@@ -25,9 +25,9 @@ export const ACTIONS: Array<NavigationItem> = [
   },
   {
     id: uuid(),
-    href: siteConfig.links.cv,
+    href: siteConfig.links.linkedin,
     external: true,
-    icon: <Icon icon="feather:file-text" className="mr-3" />,
-    text: "Resume",
+    icon: <Icon icon="feather:linkedin" className="mr-3" />,
+    text: "Linkedin",
   },
 ];

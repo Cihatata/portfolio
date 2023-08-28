@@ -11,8 +11,8 @@ import {
   WorkContainer,
   ListContainer,
 } from "../components";
-import { BLOGS, PROJECTS } from "../data";
-import { ProjectCard, BlogCard } from "./component";
+import { BLOGS } from "../data";
+import { BlogCard } from "./component";
 
 export default function Projects() {
   return (
@@ -21,15 +21,18 @@ export default function Projects() {
         <WorkContent>
           <TabGroup>
             <TabsList>
-              <TabsTrigger>Projelerim</TabsTrigger>
               <TabsTrigger>Yazılarım</TabsTrigger>
               <TabsTrigger>Notlarım</TabsTrigger>
+              <TabsTrigger>Yeteneklerim</TabsTrigger>
             </TabsList>
             <TabsContent>
-              <ListContainer items={PROJECTS} item={ProjectCard} />{" "}
+              <ListContainer items={BLOGS} item={BlogCard} />
             </TabsContent>
             <TabsContent>
-              <ListContainer items={BLOGS} item={BlogCard} />
+              <p>Henüz not yok.</p>
+            </TabsContent>
+            <TabsContent>
+              Yetenklerim
             </TabsContent>
           </TabGroup>
         </WorkContent>

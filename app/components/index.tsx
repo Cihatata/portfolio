@@ -16,12 +16,14 @@ export {
   AboutContainer,
   NavContainer,
   HomeContainer,
+  ToolContainer,
 } from "./Container.Component";
 export {
   WorkContent,
   AboutContent,
   HomeContent,
   NavContent,
+  ToolContent,
 } from "./Content.Component";
 export { MenuGroup, MenuButton, MenuItems, MenuItem } from "./Menu.Component";
 export { Icons } from "./Icon.Component";

@@ -73,4 +73,23 @@ const NavContent = ({
   );
 };
 
-export { WorkContent, AboutContent, HomeContent, NavContent };
+const ToolContent = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => {
+  return (
+    <div
+      ref={ref}
+      className={classNames(
+        "max-w-md sm:max-w-lg md:max-w-3xl lg:max-w-5xl w-full",
+        " mx-auto",
+        className
+      )}
+      {...props}
+    />
+  );
+});
+
+ToolContent.displayName = "ToolContent";
+
+export { WorkContent, AboutContent, HomeContent, NavContent, ToolContent };

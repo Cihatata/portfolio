@@ -3,9 +3,9 @@ import React from "react";
 import { siteConfig } from "../lib/config";
 
 export const metadata: Metadata = {
-  title: `Çalışmalarım | ${siteConfig.name}`,
+  title: `Araçlarım | ${siteConfig.name}`,
   description:
-    "Notlarım ve Yazdığım bazı yazıları burada görebilirsiniz.",
+    "Çalışma masamda kullandığım araçlar",
 };
 
 const layout = ({ children }: { children: React.ReactNode }) => {

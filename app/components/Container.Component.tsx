@@ -85,10 +85,31 @@ const HomeContainer = ({
   );
 };
 
+const ToolContainer = React.forwardRef<
+  HTMLDivElement,
+  React.HtmlHTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => {
+  return (
+    <div
+      ref={ref}
+      className={classNames(
+        "flex flex-col sm:flex-row justify-center",
+        "my-28 sm:mt-36",
+        className
+      )}
+      {...props}
+    />
+  );
+});
+
+ToolContainer.displayName = "ToolContainer";
+
+
 export {
   WorkContainer,
   ListContainer,
   AboutContainer,
   NavContainer,
   HomeContainer,
+  ToolContainer,
 };

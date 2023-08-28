@@ -26,14 +26,6 @@
     {
       "source": "/medium",
       "destination": "https://cihatata.medium.com/"
-    },
-    {
-      "source": "/resume",
-      "destination": "https://drive.google.com/file/d/1GHyCfN7kKLc0cisTvxqMBUbHqLNCHUsq/view"
-    },
-    {
-      "source": "/cv",
-      "destination": "https://drive.google.com/file/d/1GHyCfN7kKLc0cisTvxqMBUbHqLNCHUsq/view"
     }
   ]
 }
