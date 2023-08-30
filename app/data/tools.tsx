@@ -80,3 +80,48 @@ export const TOOLS: Array<ToolItem> = [
     imgSrc: '',
   }
 ]
+
+export const NEXT_TOOL: Array<ToolItem> = [
+  {
+    id: uuid(),
+    name: 'TROTTEN masa 160x80',
+    brand: 'Ikea',
+    score: 0,
+    imgSrc: '/trotten2-.png',
+  },
+  {
+    id: uuid(),
+    name: '32UN88AP-W UltraFine Ergo 32',
+    brand: 'LG',
+    score: 0,
+    imgSrc: '/ultrafine-monitor-.png',
+  },
+  {
+    id: uuid(),
+    name: 'Xbox Kol Standı',
+    brand: 'Spotcha',
+    score: 0,
+    imgSrc: '',
+  }, 
+  {
+    id: uuid(),
+    name: 'MX Vertical Mouse',
+    brand: 'Logitech',
+    score: 0,
+    imgSrc: '/mx-vertical-.webp',
+  },
+  {
+    id: uuid(),
+    name: 'Air 75 Keyboard',
+    brand: 'Nuphy',
+    score: 0,
+    imgSrc: '/nuphy-air-.png',
+  },
+  {
+    id: uuid(),
+    name: 'Pomodoro Saati',
+    brand: 'TFA Dostmann',
+    score: 0,
+    imgSrc: '/pomodoro-.png',
+  }
+]

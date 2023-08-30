@@ -10,7 +10,7 @@ const WorkContainer = React.forwardRef<
       ref={ref}
       className={classNames(
         "flex flex-col sm:flex-row justify-center",
-        "my-28 sm:mt-36",
+        "lg:my-28 sm:mt-24 lg:mt-36",
         className
       )}
       {...props}
@@ -29,7 +29,7 @@ const AboutContainer = React.forwardRef<
       ref={ref}
       className={classNames(
         "flex items-center justify-center",
-        "my-28 sm:mt-36",
+        "lg:my-28 sm:mt-24 lg:mt-36",
         className
       )}
       {...props}
@@ -94,7 +94,7 @@ const ToolContainer = React.forwardRef<
       ref={ref}
       className={classNames(
         "flex flex-col sm:flex-row justify-center",
-        "my-28 sm:mt-36",
+        "lg:my-28 sm:mt-24 lg:mt-36",
         className
       )}
       {...props}

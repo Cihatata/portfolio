@@ -11,8 +11,9 @@ import {
   WorkContainer,
   ListContainer,
 } from "../components";
-import { BLOGS } from "../data";
+import { BLOGS, SKILLS } from "../data";
 import { BlogCard } from "./component";
+import { SkillBadge } from "@/app/work/component/SkillBadge.Component";
 
 export default function Projects() {
   return (
@@ -31,8 +32,18 @@ export default function Projects() {
             <TabsContent>
               <p>Henüz not yok.</p>
             </TabsContent>
-            <TabsContent>
-              Yetenklerim
+            <TabsContent className="flex flex-col gap-4">
+              {Object.entries(SKILLS).map(([key, value]) => (
+                <div key={key}>
+                  <p className="font-mono text-lg mb-1">{value.name} </p>
+                  <div className="gap-2 flex flex-wrap">
+                  {value.skills.map((item) => (
+                    <SkillBadge key={item.name} name={item.name} iconType={item?.iconType || ''} classes={item.classes} />
+                  ))}
+                  </div>
+                </div>
+              )
+              )}
             </TabsContent>
           </TabGroup>
         </WorkContent>

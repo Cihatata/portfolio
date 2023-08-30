@@ -21,3 +21,9 @@ export type ToolItem = {
   imgSrc: string;
   id: string;
 }
+
+export type SkillItem = {
+  iconType?: string;
+  name: string;
+  classes?: string;
+}
