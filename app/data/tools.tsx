@@ -32,7 +32,7 @@ export const TOOLS: Array<ToolItem> = [
   },
   {
     id: uuid(),
-    brand: 'Lenova',
+    brand: 'Lenovo',
     name: 'Q24 10i 24` Monitor',
     score: 3,
     imgSrc: '/lenova-q24i-.png',
