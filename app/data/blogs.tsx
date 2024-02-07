@@ -5,7 +5,7 @@ export const BLOGS: Array<BlogItem> = [
    {
     id: uuid(),
     title: "2023 Değerlendirmesi | Startup Serüveni",
-    description: "Bu sene, geçen yılın aksine oldukça stabil bir hayat yaşadım. Bu yüzden yıllık yazımı yazmak için bilgisayarın başına oturduğumda ne yazacağım konusunda düşünceye daldım.",
+    description: "Bu sene, geçen yılın aksine oldukça stabil bir hayat yaşadım. Bu yüzden yıllık yazımı yazmak için bilgisayarın başına oturduğumda ne yazacağım...",
     published: "12 Ocak, 2024",
     medium: "https://cihatata.medium.com/2022-de%C4%9Ferlendirmesi-tek-eksik-sayg%C4%B1nl%C4%B1k-2374489ac058",
   },
