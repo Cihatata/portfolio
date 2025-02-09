@@ -17,8 +17,8 @@ export default function About() {
           <TitleSecondary>Merhaba !</TitleSecondary>
           <Description className="md:max-w-3xl">
             Ben Cihat ATA. <a href="https://www.trendyol.com" target="_blank" className="text-amber-500 font-semibold">Trendyol</a>`da 
-            Frontend Developer olarak çalışıyorum. Ankara`da yaşıyorum. Gazi Üniversitesi Bilgisayar Mühendisliği mezunuyum(20’).
-            3+ yıldır sektörde Software Developer olarak çalışıyorum.
+            Frontend Developer olarak çalışıyorum. Ankara`da yaşıyorum. Gazi Üniversitesi Bilgisayar Mühendisliği mezunuyum.
+            4+ yıldır sektörde Software Developer olarak çalışıyorum.
             JavaScript teknolojileri ile ilgileniyorum. Ürün odaklı şirketlerde çalışmayı 
             tercih ediyorum. Öğrendiklerimi ve deneyimlerimi başkalarına aktarma konusunda 
             hevesliyim. 
