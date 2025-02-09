@@ -5,7 +5,7 @@ export const BLOGS: Array<BlogItem> = [
    {
     id: uuid(),
     title: "Açık Kaynakta Fırsatlar ve Ödüller: Checkmate’e Katkı Hikayem",
-    description: "Açık kaynak projelere katkı sağlamak, hem teknik becerileri geliştirmek hem de sektörde değerli bağlantılar kurmak için harika bir fırsat...",
+    description: "Açık kaynak projelere katkı sağlamak, hem teknik becerileri geliştirmek hem de sektörde değerli bağlantılar kurmak...",
     published: "8 Şubat, 2025",
     medium: "https://cihatata.medium.com/a%C3%A7%C4%B1k-kaynakta-f%C4%B1rsatlar-ve-%C3%B6d%C3%BCller-checkmatee-katk%C4%B1-hikayem-1a9580c9af42",
   },
