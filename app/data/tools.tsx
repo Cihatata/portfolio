@@ -105,16 +105,16 @@ export const TOOLS: Array<ToolItem> = [
 export const NEXT_TOOL: Array<ToolItem> = [
   {
     id: uuid(),
-    name: 'Pomodoro Saati',
-    brand: 'TFA Dostmann',
+    name: 'Nuphy Air 75 Klavye',
+    brand: 'Nuphy',
     score: 0,
-    imgSrc: '/pomodoro-.png',
+    imgSrc: '/nuphy-air-.png',
   },
     {
     id: uuid(),
     name: 'Ipad Pro 13 M4',
     brand: 'Apple',
     score: 0,
-    imgSrc: '/pomodoro-.png',
+    imgSrc: '/ipad-pro-m4.png',
   }
 ]
