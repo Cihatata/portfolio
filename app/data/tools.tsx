@@ -32,10 +32,24 @@ export const TOOLS: Array<ToolItem> = [
   },
   {
     id: uuid(),
-    brand: 'Lenovo',
-    name: 'Q24 10i 24` Monitor',
-    score: 3,
-    imgSrc: '/lenova-q24i-.png',
+    name: '32UN88AP-W UltraFine Ergo 32',
+    brand: 'LG',
+    score: 0,
+    imgSrc: '/ultrafine-monitor-.png',
+  },
+  {
+    id: uuid(),
+    name: 'Pomodoro Saati',
+    brand: 'TFA Dostmann',
+    score: 0,
+    imgSrc: '/pomodoro-.png',
+  },
+  {
+    id: uuid(),
+    name: 'MX Vertical Mouse',
+    brand: 'Logitech',
+    score: 0,
+    imgSrc: '/mx-vertical-.webp',
   },
   {
     id: uuid(),
@@ -46,10 +60,10 @@ export const TOOLS: Array<ToolItem> = [
   },
   {
     id: uuid(),
-    brand: 'Ikea',
-    name: 'LAGKAPTEN/ADILS 120x60 Beyaz',
-    score: 3,
-    imgSrc: '/LAGKAPTEN_ADIL.png',
+    brand: 'Tischkoenig',
+    name: '140x60 Kayın Yükseklik ayarlı masa',
+    score: 5,
+    imgSrc: '/masa.jpg',
   },
   {
     id: uuid(),
@@ -78,23 +92,6 @@ export const TOOLS: Array<ToolItem> = [
     brand: 'Cengo',
     score: 5,
     imgSrc: '',
-  }
-]
-
-export const NEXT_TOOL: Array<ToolItem> = [
-  {
-    id: uuid(),
-    name: 'TROTTEN masa 160x80',
-    brand: 'Ikea',
-    score: 0,
-    imgSrc: '/trotten2-.png',
-  },
-  {
-    id: uuid(),
-    name: '32UN88AP-W UltraFine Ergo 32',
-    brand: 'LG',
-    score: 0,
-    imgSrc: '/ultrafine-monitor-.png',
   },
   {
     id: uuid(),
@@ -103,24 +100,20 @@ export const NEXT_TOOL: Array<ToolItem> = [
     score: 0,
     imgSrc: '',
   }, 
-  {
-    id: uuid(),
-    name: 'MX Vertical Mouse',
-    brand: 'Logitech',
-    score: 0,
-    imgSrc: '/mx-vertical-.webp',
-  },
-  {
-    id: uuid(),
-    name: 'Air 75 Keyboard',
-    brand: 'Nuphy',
-    score: 0,
-    imgSrc: '/nuphy-air-.png',
-  },
+]
+
+export const NEXT_TOOL: Array<ToolItem> = [
   {
     id: uuid(),
     name: 'Pomodoro Saati',
     brand: 'TFA Dostmann',
+    score: 0,
+    imgSrc: '/pomodoro-.png',
+  },
+    {
+    id: uuid(),
+    name: 'Ipad Pro 13 M4',
+    brand: 'Apple',
     score: 0,
     imgSrc: '/pomodoro-.png',
   }
