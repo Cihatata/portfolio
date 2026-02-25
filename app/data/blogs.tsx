@@ -4,6 +4,13 @@ import { BlogItem, WorkItem } from "../types";
 export const BLOGS: Array<BlogItem> = [
    {
     id: uuid(),
+    title: "Yazılım Takımlarında Onboarding",
+    description: "Kariyerimde sık iş değiştirdim. Bu da beni, farklı şirketlerde, farklı kültürlerde, bambaşka takımlarda yeniden “yeni başlayan kişi” o...",
+    published: "10 Aralık, 2025",
+    medium: "https://cihatata.medium.com/yaz%C4%B1l%C4%B1m-tak%C4%B1mlar%C4%B1nda-onboarding-164a6dc72985"
+   },
+   {
+    id: uuid(),
     title: "Açık Kaynakta Fırsatlar ve Ödüller: Checkmate’e Katkı Hikayem",
     description: "Açık kaynak projelere katkı sağlamak, hem teknik becerileri geliştirmek hem de sektörde değerli bağlantılar kurmak...",
     published: "8 Şubat, 2025",
